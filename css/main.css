@@ -1,0 +1,43 @@
+body {
+  font-family: Verdana;
+  font-size: 13px;
+}
+.container {
+  width: 80%;
+  margin-left: 10%;
+}
+.header {
+  background: #ff6600;
+  font-weight: bold;
+}
+.content {
+  background: #f6f6ef;
+}
+.header, .content {
+  padding: 3px 5px;
+}
+
+.show_off {
+  margin-top: 40px;
+  text-align: center;
+}
+#hn_submission_autocomplete {
+  width: 600px;
+  font-size: 18px;
+}
+#hn_submission_informations {
+  visibility: hidden;
+  display: inline-block;
+  width: 600px;
+  min-height: 300px;
+  text-align: left;
+  margin-top: 5px;
+}
+#hn_submission_informations_content {
+  white-space: pre;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin: 4px 0px 2px;
+}

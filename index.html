@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>jquery.hn-submission-autocomplete</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="js/hn-submissions.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        jquery.hn-submission-autocomplete
+      </div>
+      <div class="content">
+        <div class="description">
+          Sample on how to filter <a href="https://news.ycombinator.com/" target="_blank">Hacker News</a> submissions using <a href="https://www.hnsearch.com/api" target="_blank">HNSearch API</a> and <a href="http://www.jqueryui.com" target="_blank">JqueryUI</a>.
+        </div>
+        <div class="show_off">
+          <div>
+            <input id="hn_submission_autocomplete" type="text" placeholder="Filter by submission title..." />
+          </div>
+          <div>
+            <div id="hn_submission_informations">
+              <label>HN link:</label>
+              <div id="hn_submission_informations_link"></div>
+              <label>HNSearch ID:</label>
+              <div id="hn_submission_informations_id"></div>
+              <label>Data:</label>
+              <div id="hn_submission_informations_content"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
